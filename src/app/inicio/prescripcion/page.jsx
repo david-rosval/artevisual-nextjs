@@ -30,30 +30,30 @@ const PrescripcionPage = () => {
             <tbody>
               <tr>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
               </tr>
               <tr>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
               </tr>
             </tbody>
@@ -75,30 +75,30 @@ const PrescripcionPage = () => {
             <tbody>
               <tr>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
               </tr>
               <tr>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
                 <td>
-                  <input type="text" className="w-full" />
+                  <input type="text" className="w-full border-2" />
                 </td>
               </tr>
             </tbody>
