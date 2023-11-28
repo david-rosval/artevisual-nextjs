@@ -167,6 +167,12 @@ function RegisterPage() {
         <button className="w-full bg-teal-600 text-white text-lg font-bold p-4 rounded-md hover:bg-teal-700 mt-10">
           Registrar
         </button>
+        <a
+          className="mt-2 block underline clickable text-right cursor-pointer text-teal-600"
+          onClick={() => {
+            router.push("/auth/login");
+          }}
+        >Ya tengo una cuenta</a>
       </form>
     </div>
   );

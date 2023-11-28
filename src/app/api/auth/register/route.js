@@ -26,6 +26,7 @@ export async function POST(request) {
     console.log(data);
 
     const claveHash = await bcrypt.hash(data.clave, 10);
+    console.log(claveHash);
 
     const newUser = await db.user.create({
       data: {
@@ -37,9 +38,9 @@ export async function POST(request) {
         estado: data.estado,
       },
     });
-
+    console.log(data);
     const { clave: _, ...user } = newUser;
-
+    console.log(user);
     return NextResponse.json(user);
   } catch (error) {
     return NextResponse.json(
