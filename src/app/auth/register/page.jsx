@@ -66,8 +66,8 @@ function RegisterPage() {
           <span className="text-red-500">{errors.nombrecompleto.message}</span>
         )}
 
-        <label htmlFor="dni" className="block font-bold text-gray-700 mt-2">
-          DNI
+        <label htmlFor="dni" className="block font-bold text-gray-700 mt-2 uppercase">
+          dni
         </label>
         <input
           type="text"
